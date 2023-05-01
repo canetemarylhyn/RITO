@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploaddata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Upload Data"
+            android:textColor="@color/midpurp"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="207dp"
+            android:layout_height="138dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/bg" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="Name"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/office"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="Office"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/cpno"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="Contact number"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/concern"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="Concern/Description"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/ito"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="IT Operator"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="Date for Completion"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/uploadbutton"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/midpurp"
+            android:text="Save"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
